@@ -39,7 +39,7 @@ export function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
           <Cpu className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg">DevShelf</span>
+          <span className="font-bold text-lg">Sayyed Arslan</span>
         </Link>
 
         {isMobile ? (
@@ -54,7 +54,7 @@ export function Header() {
               <div className="p-4">
                 <Link href="/" className="flex items-center gap-2 mb-8" onClick={() => setMobileMenuOpen(false)}>
                   <Cpu className="h-7 w-7 text-primary" />
-                  <span className="font-bold text-xl">DevShelf</span>
+                  <span className="font-bold text-xl">Sayyed Arslan</span>
                 </Link>
                 <NavLinks className="flex-col items-start space-y-4" />
               </div>

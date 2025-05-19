@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'DevShelf - My Developer Portfolio',
+  title: 'Sayyed Arslan - My Developer Portfolio',
   description: 'A showcase of my projects, skills, and journey as a web developer.',
 };
 
