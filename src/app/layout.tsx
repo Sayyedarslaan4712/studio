@@ -5,6 +5,7 @@ import './globals.css';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster";
+import { URL } from 'url';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -19,6 +20,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Sayyed Arslan - My Developer Portfolio',
   description: 'A showcase of my projects, skills, and journey as a web developer.',
+  metadataBase: new URL('https://sayyedarslaan.web.app'),
 };
 
 export default function RootLayout({
